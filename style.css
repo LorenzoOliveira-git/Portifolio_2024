@@ -1,0 +1,298 @@
+/* config geral */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: #F3F4F6;
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+    justify-items: center;
+}
+
+h2{
+    color: #1E3A8A;
+    font-size: 64px;
+}
+
+
+/* config do header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba( 243, 244, 246, 0);
+}
+.SectionInicial header ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.SectionInicial header ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/* config da section inicial */
+
+.SectionInicial{
+    width: 100%;
+    height: 710px;
+    margin: 0;
+    position: relative;
+}
+.SectionInicial img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.SectionInicial #TextoAndando{
+    font-size: 140px;
+    display: inline-block;
+    width: 14000px;
+    position: absolute;
+    top: 450px;
+    animation: rolarTexto 50s linear infinite;
+}
+
+.SectionInicial #TextoAndando span{
+    margin-right: 100px;
+}
+
+
+/* config Sobre mim - inteiro*/
+#SobreMim{
+    background: linear-gradient(to bottom,rgba(197,203,212) 80%,rgba(197,203,212,0.9) 88%, rgba(243,244,246,0.9)100%);
+    height: 3000px;
+    width: 100%;
+    position: relative;
+}
+
+#SobreMim #TextoSobreMim{
+    padding: 80px;
+}
+
+/* config muito prazer */
+
+#SobreMim .MuitoPrazer{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+
+#SobreMim .MuitoPrazer #TextoMuitoPrazer{
+    width: 600px;
+}
+
+#SobreMim .MuitoPrazer #TextoMuitoPrazer h3{
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#SobreMim .MuitoPrazer #TextoMuitoPrazer p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+#SobreMim .MuitoPrazer #TextoMuitoPrazer #BotoesSocias{
+    text-align: left;
+    margin-top: 60px;
+}
+
+#SobreMim .MuitoPrazer #TextoMuitoPrazer #BotoesSocias a{
+    color: black;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+
+/* Estudante Tech   */
+
+#SobreMim .EstudanteTech{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+#SobreMim .EstudanteTech #TextoEstudanteTech{
+    width: 500px;
+}
+
+#SobreMim .EstudanteTech #TextoEstudanteTech h3{
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#SobreMim .EstudanteTech #TextoEstudanteTech p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+
+
+/* config LocaisConheco */
+
+#SobreMim .LocaisConheco{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+
+#SobreMim .LocaisConheco #TextoLocaisConheco{
+    width: 600px;
+}
+
+#SobreMim .LocaisConheco #TextoLocaisConheco h3{
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#SobreMim .LocaisConheco #TextoLocaisConheco {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+#SobreMim .LocaisConheco #TextoLocaisConheco ul li{
+    margin-left: 50px;
+}
+
+
+/* config LocaisDesconheco */
+
+#SobreMim .LocaisDesconheco{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+#SobreMim .LocaisDesconheco #TextoLocaisDesconheco{
+    width: 500px;
+}
+
+#SobreMim .LocaisDesconheco #TextoLocaisDesconheco h3{
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#SobreMim .LocaisDesconheco #TextoLocaisDesconheco{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+#SobreMim .LocaisDesconheco #TextoLocaisDesconheco ol li{
+    margin-left: 50px;
+}
+
+
+/* config Minhas Especialidades */
+
+.MinhasEspecialidades h2{
+    margin-bottom: 60px;
+}
+
+.especialidade{
+    width: 346px;
+    height: 377px;
+    text-align: left;
+    margin-left: 15px;
+    padding: 60px 0 0 30px;
+    border-radius: 23px;
+}
+
+.MinhasEspecialidades .especialidade h4{
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.MinhasEspecialidades .especialidade p{
+    font-size: 20px;
+    margin-top: 25px;
+    width: 300px;
+}
+
+.especialidade:hover{
+    box-shadow: 0px 1px 45px -6px #F97316;
+}
+
+.MinhasEspecialidades #primeirasEspecialidades{
+    display: flex;
+}
+
+.MinhasEspecialidades #ultimasEspecialidades{
+    display: flex;
+}
+
+
+/* config Projetos */
+
+.Projetos h2{
+    margin: 100px 0 100px 0;
+}
+
+.estiloGeralProjetos{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 200px;
+    border-radius: 23px;
+    margin-top: 10px;
+}
+
+.estiloGeralProjetos a{
+    margin: 150px 20px 40px 0;
+    font-size: 42px;
+}
+
+
+.estiloGeralProjetos .TextoProjeto{
+    text-align: left;
+    line-height: 50px;
+    padding: 30px 0 0 30px;
+}
+
+.estiloGeralProjetos:hover{
+    box-shadow: 0px 1px 45px -6px #F97316;
+}
+
+
+
+
+/* animações */
+@keyframes rolarTexto{
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
